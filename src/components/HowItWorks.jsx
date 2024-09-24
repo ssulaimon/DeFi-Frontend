@@ -1,4 +1,5 @@
 import "../css/HowItWorks.css";
+import cursor from "../assets/cursor.svg";
 export default function HowItWorks(){
     return  <div>
     <h3 className="section-title">
@@ -34,6 +35,21 @@ ETH Pool
 <div className="pool-3 pools">
 BTC
 </div>
+
+    </div>
+    <div className="step-container deposit-asset-main-container">
+    <p className="medium-font-size section-title">
+        Step Three
+    </p>
+    <p className="small-font-size section-title">
+        Deposit Crypto Asset
+    </p>
+    <div className="deposit-asset-container">
+        Deposit 
+    </div>
+    <img src={cursor} alt="cursor-image" height={"20px"} width={"20px"} id="cursor-icon" />
+
+
 
     </div>
 

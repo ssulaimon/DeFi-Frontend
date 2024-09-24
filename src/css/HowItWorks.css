@@ -8,6 +8,8 @@
 .step-container {
   padding: 10px;
   background-color: #fafcff;
+  /* flex: 1; */
+  width: calc(50% - 10px);
 }
 .connect-wallet-animation {
   background-color: black;
@@ -20,7 +22,7 @@
   animation-iteration-count: infinite;
 }
 .pools {
-  width: 120px;
+  /* width: 120px; */
   text-align: center;
   font-weight: 500;
   margin: 5px 0;
@@ -42,6 +44,30 @@
   animation-delay: 10s;
   animation-duration: 4s;
 }
+.deposit-asset-container {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  animation: animate-connect-button;
+  animation-duration: 3s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+.deposit-asset-main-container {
+  position: relative;
+}
+#cursor-icon {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  background-color: transparent;
+  animation: move-mouse;
+  animation-delay: 1s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
 @keyframes animate-connect-button {
   from {
     background-color: black;
@@ -58,5 +84,19 @@
   to {
     background-color: var(--primary-color);
     color: white;
+  }
+}
+@keyframes move-mouse {
+  0% {
+    top: 0;
+    right: 0;
+  }
+  30% {
+    top: 20px;
+    right: 30px;
+  }
+  100% {
+    top: 60px;
+    right: 60px;
   }
 }
