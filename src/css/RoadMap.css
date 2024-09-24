@@ -1,0 +1,19 @@
+.road-map-title-main-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin: 15px 20px;
+}
+.road-maps-main-container {
+  margin: 20px;
+}
+@media screen and (min-width: 700px) {
+  .road-maps-main-container {
+    margin-left: 40px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .road-maps-main-container {
+    margin-left: 80px;
+  }
+}

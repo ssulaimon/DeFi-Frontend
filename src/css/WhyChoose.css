@@ -21,7 +21,7 @@
   animation-iteration-count: infinite;
 }
 .liquidity {
-  margin-left: 40px;
+  margin-left: 50px;
   animation: benefit-container-animation;
   animation-duration: 10s;
   animation-delay: 5s;
@@ -51,5 +51,36 @@
     border-left: none;
     border-top: none;
     border-bottom: 2px solid var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .security {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .flexibility {
+    margin-left: 80px;
+    margin-right: 60px;
+    margin-top: 20px;
+  }
+  .liquidity {
+    margin-left: 120px;
+    margin-right: 60px;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .security {
+    margin-left: 200px;
+    margin-right: 150px;
+  }
+  .flexibility {
+    margin-left: 260px;
+    margin-right: 150px;
+  }
+  .liquidity {
+    margin-left: 310px;
+    margin-right: 150px;
   }
 }

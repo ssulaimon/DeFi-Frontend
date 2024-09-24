@@ -8,19 +8,45 @@ import wrappedBtc from "./assets/wrapped_btc.svg";
 import wrappedEth from "./assets/eth.svg";
 import usdt from "./assets/usdt.svg";
 import { WhyChoose } from "./components/WhyChoose.jsx";
-export default function App(){
-    const [showHarmburger, changeHarmubgerState] = useState(false);
-    function onClickNavButton (){
-        changeHarmubgerState((currentSatte)=> !currentSatte);
-    }
-    const assetDetails = [new SupportedNetworkModel("Wrapped BTC",wrappedBtc,"Ethereum", "200", "$2,000", "$20M"),new SupportedNetworkModel("Wrapped ETH",wrappedEth,"Ethereum", "20", "$2,000", "$30M"), new SupportedNetworkModel("Tether",usdt,"Ethereum", "20", "$1", "$50M")];
-    return <div>
-<Header showHarmburger={showHarmburger} navButtonOnclick={onClickNavButton}>
+import { RoadMap } from "./components/RoadMap.jsx";
+import { CommingSoon } from "./components/ComingSoon.jsx";
+export default function App() {
+  const [showHarmburger, changeHarmubgerState] = useState(false);
+  function onClickNavButton() {
+    changeHarmubgerState((currentSatte) => !currentSatte);
+  }
+  const assetDetails = [
+    new SupportedNetworkModel(
+      "Wrapped BTC",
+      wrappedBtc,
+      "Ethereum",
+      "200",
+      "$2,000",
+      "$20M"
+    ),
+    new SupportedNetworkModel(
+      "Wrapped ETH",
+      wrappedEth,
+      "Ethereum",
+      "20",
+      "$2,000",
+      "$30M"
+    ),
+    new SupportedNetworkModel("Tether", usdt, "Ethereum", "20", "$1", "$50M"),
+  ];
+  return (
+    <div>
+      <Header
+        showHarmburger={showHarmburger}
+        navButtonOnclick={onClickNavButton}
+      />
 
-</Header>
-<Hero/>
-<HowItWorks/>
-<SupportedNetworks assets={assetDetails} />
-<WhyChoose/>
+      <Hero />
+      <HowItWorks />
+      <SupportedNetworks assets={assetDetails} />
+      <WhyChoose />
+      <RoadMap />
+      <CommingSoon/>
     </div>
+  );
 }
