@@ -12,7 +12,7 @@ export default function HowItWorks(){
 <p className="medium-font-size section-title">
     Step One
 </p>
-<p className="small-font-size">
+<p className="small-font-size section-title">
     Connect Decentralized Wallet
 </p>
 <div className="connect-wallet-animation">

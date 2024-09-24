@@ -1,0 +1,22 @@
+.crypto-asset-main-card {
+  background-color: #fafcff;
+  padding: 10px 20px;
+}
+.asset-image {
+  display: block;
+  width: 90%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: transparent;
+}
+.usd-value {
+  color: #328332;
+}
+.locked-value {
+  color: var(--primary-color);
+}
+@media screen and (min-width: 700px) {
+  .crypto-asset-main-card {
+    width: 200px;
+  }
+}

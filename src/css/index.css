@@ -28,10 +28,12 @@ li {
   font-size: 16px;
   font-weight: 600;
   margin: 5px 0;
+  background-color: transparent;
 }
 .small-font-size {
   font-size: 12px;
   margin: 5px 0;
+  background-color: transparent;
 }
 .big-button {
   display: block;

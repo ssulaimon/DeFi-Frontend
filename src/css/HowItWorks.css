@@ -38,11 +38,13 @@
   animation: pool-one;
   animation-delay: 6s;
   animation-duration: 4s;
+  background-color: transparent;
 }
 .pool-3 {
   animation: pool-one;
   animation-delay: 10s;
   animation-duration: 4s;
+  background-color: transparent;
 }
 .deposit-asset-container {
   background-color: var(--primary-color);
@@ -217,5 +219,18 @@
     top: 60px;
     right: 60px;
     opacity: 1;
+  }
+}
+@media screen and (min-width: 700px) {
+  .step-container {
+    width: 150px;
+  }
+  .steps-main-container {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .step-container {
+    width: 200px;
   }
 }
