@@ -1,0 +1,28 @@
+.steps-main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.step-container {
+  padding: 10px;
+  background-color: #fafcff;
+}
+.connect-wallet-animation {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  animation: animate-connect-button;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes animate-connect-button {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: var(--primary-color);
+  }
+}

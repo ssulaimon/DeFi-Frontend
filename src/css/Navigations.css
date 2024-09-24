@@ -1,0 +1,44 @@
+.navigation-main-container {
+  position: absolute;
+  width: calc(100% - 20px);
+  top: 40px;
+  transition: background-color 2s ease-in-out, opacity 2s ease-in-out;
+}
+.hide-nav {
+  opacity: 0;
+  visibility: hidden;
+  background-color: transparent;
+}
+.show-nav {
+  opacity: 1;
+  visibility: visible;
+  background-color: #dadaff;
+}
+.navigation-link {
+  display: block;
+  text-align: center;
+  margin: 5px 0;
+  font-weight: 600;
+  color: black;
+  background-color: transparent;
+}
+.navigation-link > a {
+  color: black;
+  background-color: transparent;
+}
+@media screen and (min-width: 700px) {
+  .navigation-main-container {
+    position: relative;
+    width: auto;
+    top: 0;
+    background-color: transparent;
+    opacity: 1;
+    visibility: visible;
+    transition: none;
+  }
+  .navigation-link {
+    display: inline-block;
+    text-align: start;
+    margin: 0 5px;
+  }
+}

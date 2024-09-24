@@ -1,0 +1,23 @@
+.hero-main-container {
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (min-width: 700px) {
+  .hero-main-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hero-image {
+    display: inline-block;
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .hero-image {
+    width: 600px;
+  }
+}
