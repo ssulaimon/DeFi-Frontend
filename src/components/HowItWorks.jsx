@@ -18,6 +18,24 @@ Connect
 
 </div>
     </div>
+    <div className="step-container">
+    <p className="medium-font-size section-title">
+        Setp Two
+    </p>
+<p className="small-font-size section-title">
+    Choose a Pool
+</p>
+<div className="pool-1 pools" >
+USDT Pool
+</div>
+<div className="pool-2 pools">
+ETH Pool
+</div>
+<div className="pool-3 pools">
+BTC
+</div>
+
+    </div>
 
     </div>
 
