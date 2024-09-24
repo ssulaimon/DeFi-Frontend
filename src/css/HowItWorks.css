@@ -67,6 +67,122 @@
   animation-delay: 1s;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  opacity: 0;
+}
+.reward-crypto-main-container {
+  position: relative;
+}
+.reward-crypto-container {
+  background-color: var(--primary-color);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+.reward-1,
+.reward-2,
+.reward-3,
+.reward-4 {
+  position: absolute;
+
+  background-color: transparent;
+}
+.reward-4 {
+  opacity: 0;
+  animation: reward-4;
+  animation-delay: 2s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.reward-3 {
+  opacity: 0;
+  animation: reward-3;
+  animation-delay: 1s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.reward-2 {
+  animation: reward-2;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+.reward-1 {
+  animation: reward-1;
+  opacity: 0;
+  animation-duration: 4s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes reward-1 {
+  0% {
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  50% {
+    top: 40%;
+    left: 0;
+    opacity: 1;
+  }
+  100% {
+    top: 80%;
+    left: 0;
+    opacity: 1;
+  }
+}
+@keyframes reward-2 {
+  0% {
+    top: 0;
+    left: 30%;
+    opacity: 0;
+  }
+  50% {
+    top: 40%;
+    left: 30%;
+    opacity: 1;
+  }
+  100% {
+    top: 80%;
+    left: 30%;
+    opacity: 1;
+  }
+}
+
+@keyframes reward-3 {
+  0% {
+    top: 0;
+    left: 60%;
+    opacity: 0;
+  }
+  50% {
+    top: 40%;
+    left: 60%;
+    opacity: 1;
+  }
+  100% {
+    top: 80%;
+    left: 60%;
+    opacity: 1;
+  }
+}
+@keyframes reward-4 {
+  0% {
+    top: 0;
+    right: 0%;
+    opacity: 0;
+  }
+  50% {
+    top: 40%;
+    right: 0%;
+    opacity: 1;
+  }
+  100% {
+    top: 80%;
+    right: 0%;
+    opacity: 1;
+  }
 }
 @keyframes animate-connect-button {
   from {
@@ -90,13 +206,16 @@
   0% {
     top: 0;
     right: 0;
+    opacity: 0;
   }
   30% {
     top: 20px;
     right: 30px;
+    opacity: 1;
   }
   100% {
     top: 60px;
     right: 60px;
+    opacity: 1;
   }
 }

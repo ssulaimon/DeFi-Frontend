@@ -1,5 +1,6 @@
 import "../css/HowItWorks.css";
 import cursor from "../assets/cursor.svg";
+import reward from "../assets/reward.svg";
 export default function HowItWorks(){
     return  <div>
     <h3 className="section-title">
@@ -51,6 +52,21 @@ BTC
 
 
 
+    </div>
+    <div className="step-container reward-crypto-main-container">
+    <p className="medium-font-size section-title">
+        Step Four
+    </p>
+    <p className="small-font-size section-title">
+        Earn Reward
+    </p>
+<div className="reward-crypto-container">
+   Best Apy %
+</div>
+<img src={reward} alt="reward-icon" className="reward-1" />
+<img src={reward} alt="reward-icon" className="reward-2" />
+<img src={reward} alt="reward-icon" className="reward-3" />
+<img src={reward} alt="reward-icon" className="reward-4" />
     </div>
 
     </div>
