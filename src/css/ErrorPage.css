@@ -1,0 +1,32 @@
+.error-page-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.error-image {
+  width: 80%;
+  display: block;
+  background-color: transparent;
+}
+.error-title {
+  color: #252f40;
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: 900;
+}
+.error-link-home {
+  display: inline-block;
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: white;
+  margin-top: 20px;
+}
+@media screen and (min-width: 700px) {
+  .error-image {
+    width: 300px;
+  }
+}
