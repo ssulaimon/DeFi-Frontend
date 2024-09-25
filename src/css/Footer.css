@@ -1,0 +1,40 @@
+.footer-main-container {
+  background-color: var(--primary-color);
+  padding: 20px;
+}
+.links-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: transparent;
+}
+.footer-title {
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  margin: 5px 0;
+}
+.footer-item {
+  color: black;
+  font-size: 14px;
+  background-color: transparent;
+  display: inline-block;
+  margin: 5px 0;
+  font-weight: 500;
+}
+
+li {
+  background-color: transparent;
+}
+ul {
+  background-color: transparent;
+}
+@media screen and (min-width: 700px) {
+  .links-container {
+    gap: 0;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

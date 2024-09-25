@@ -1,4 +1,4 @@
-import "../css/WhyChoose.css";
+import "../../css/WhyChoose.css";
 export function WhyChoose(){
     return <div>
         <h3 className="section-title ">

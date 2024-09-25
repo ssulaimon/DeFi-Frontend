@@ -1,6 +1,6 @@
-import "../css/RoadMap.css";
-import loading from "../assets/loading.svg";
-import waiting from "../assets/waiting.svg";
+import "../../css/RoadMap.css";
+import loading from "../../assets/loading.svg";
+import waiting from "../../assets/waiting.svg";
 export function RoadMap(){
     return <div>
         <h3 className="section-title">

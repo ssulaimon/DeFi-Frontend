@@ -1,6 +1,6 @@
 import exact from "prop-types-exact";
 import PropTypes from "prop-types";
-export default function CustomButton (props){
+export  function CustomButton (props){
     const properties = props.styles;
     const styles = {backgroundColor: properties.backgroundColor, color: properties.textColor, border: 'none',};
     return <button style={styles} className={"big-button"}>

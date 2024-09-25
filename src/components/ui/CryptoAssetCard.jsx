@@ -1,7 +1,7 @@
 import exact from "prop-types-exact";
 import Proptypes from "prop-types";
-import { SupportedNetworkModel } from "../models/supportedNetworksModel.js";
-import "../css/CryptoAssetCard.css";
+import { SupportedNetworkModel } from "../../utils/models/supportedNetworksModel.js";
+import "../../css/CryptoAssetCard.css";
 export function CryptoAssetCard(props){
    
     return <div className="crypto-asset-main-card">

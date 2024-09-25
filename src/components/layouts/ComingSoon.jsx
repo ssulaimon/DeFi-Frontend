@@ -1,5 +1,5 @@
-import "../css/CommingSoon.css";
-import megaPhone from "../assets/megaphone.svg";
+import "../../css/CommingSoon.css";
+import megaPhone from "../../assets/megaphone.svg";
 export function CommingSoon(){
     return <div className="comming-soon-main-container">
         <h3 className="section-title">

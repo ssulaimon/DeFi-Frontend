@@ -1,0 +1,29 @@
+.faq-card-main-container {
+  padding: 10px 20px;
+}
+.faq-card-title-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.faq-card-answer {
+  font-size: 12px;
+  color: var(--grey-color);
+  font-weight: 600;
+  transition: max-height 2s ease-in, opacity 2s ease-in;
+  overflow: hidden;
+  max-height: 0;
+}
+
+@media screen and (min-width: 700px) {
+  .faq-card-main-container {
+    padding: 10px 50px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .faq-card-main-container {
+    padding: 10px 80px;
+  }
+}

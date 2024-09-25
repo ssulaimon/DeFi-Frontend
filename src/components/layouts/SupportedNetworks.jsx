@@ -1,9 +1,9 @@
-import "../css/SupportedNetworks.css";
-import { CryptoAssetCard } from "./CryptoAssetCard.jsx";
-import { SupportedNetworkModel } from "../models/supportedNetworksModel.js";
+import "../../css/SupportedNetworks.css";
+import { CryptoAssetCard } from "../ui/CryptoAssetCard.jsx";
+import { SupportedNetworkModel } from "../../utils/models/supportedNetworksModel.js";
 import exact from "prop-types-exact";
 import PropTypes from "prop-types";
-export default function SupportedNetworks(props){
+export  function SupportedNetworks(props){
     
     return <div className="supported-tokens-main-container">
     <h3 className="section-title">

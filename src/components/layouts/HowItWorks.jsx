@@ -1,7 +1,7 @@
-import "../css/HowItWorks.css";
-import cursor from "../assets/cursor.svg";
-import reward from "../assets/reward.svg";
-export default function HowItWorks(){
+import "../../css/HowItWorks.css";
+import cursor from "../../assets/cursor.svg";
+import reward from "../../assets/reward.svg";
+export  function HowItWorks(){
     return  <div>
     <h3 className="section-title">
         How it Works

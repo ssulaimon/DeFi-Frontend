@@ -1,10 +1,10 @@
-import "../css/Hero.css";
-import CustomButton from "./CustomButton";
-import heroImage from "../assets/hero-image.svg";
+import "../../css/Hero.css";
+import {CustomButton} from "../ui/CustomButton";
+import heroImage from "../../assets/hero-image.svg";
 
-export default  function Hero    (){
+export   function Hero    (){
     const customButtonProperties = {
-        title: "Get Started",
+        title: "Launch App",
         backgroundColor: "var(--primary-color)",
         textColor: "white",
     };

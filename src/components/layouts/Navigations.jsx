@@ -1,7 +1,7 @@
 import exact from "prop-types-exact";
 import PropTypes from "prop-types";
-import "../css/Navigations.css";
-export default function Navigations(prop){
+import "../../css/Navigations.css";
+export  function Navigations(prop){
     return <ul className={`navigation-main-container ${prop.showNav ? 'show-nav':'hide-nav'}`}>
         <li className="navigation-link">
             <a href="">
