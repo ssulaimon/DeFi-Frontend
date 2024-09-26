@@ -36,7 +36,7 @@ li {
   background-color: transparent;
 }
 .big-button {
-  display: block;
+  display: inline-block;
   border-radius: 20px;
   padding: 10px 40px;
   margin: 10px 0;

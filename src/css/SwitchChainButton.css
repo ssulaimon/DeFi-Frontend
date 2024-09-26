@@ -1,0 +1,30 @@
+.switch-main-container {
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  color: white;
+  gap: 20px;
+  cursor: pointer;
+}
+.top-switch-container {
+  position: relative;
+}
+.switch-icon {
+  background-color: transparent;
+  height: 25px;
+}
+.network-list-main-container {
+  position: absolute;
+  background-color: var(--primary-color);
+
+  width: 100%;
+
+  left: 0;
+  top: 42px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

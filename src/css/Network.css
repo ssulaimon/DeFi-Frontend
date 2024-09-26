@@ -1,0 +1,15 @@
+.network-main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 3px;
+  cursor: pointer;
+
+  background-color: transparent;
+  color: white;
+}
+.blockchain-icons {
+  background-color: transparent;
+  height: 25px;
+}

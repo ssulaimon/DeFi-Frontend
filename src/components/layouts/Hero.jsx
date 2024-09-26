@@ -1,12 +1,11 @@
 import "../../css/Hero.css";
-import {CustomButton} from "../ui/CustomButton";
 import heroImage from "../../assets/hero-image.svg";
 
 export   function Hero    (){
     const customButtonProperties = {
-        title: "Launch App",
         backgroundColor: "var(--primary-color)",
-        textColor: "white",
+        color: "white",
+        
     };
     return <div className="hero-main-container">
     <div className="hero-text-container">
@@ -19,7 +18,7 @@ export   function Hero    (){
         <p className="grey-color small-font-size">
         Earn high rewards by staking your favorite tokens. No lock-ins, just consistent growth. Start staking now and watch your crypto portfolio flourish.
         </p>
-        <CustomButton styles={customButtonProperties} />
+        <a href="/stake" style={customButtonProperties} className="big-button">Launch App</a>
     </div>
     <img src={heroImage} alt="hero-image"  className="hero-image"/>
         
